@@ -55,22 +55,11 @@ REMOVE FILTER
 
 ---
 ## Summary
-Summary:
-1. Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
-
-The summary addresses one drawback of this webpage (2 pt)
-The summary addresses two additional recommendations for further development (4 pt)
-### My Reccomendation 
-According to the data, Louise's play with a funding goal of $10,000 should be launched in May, June, or July and avoid a launch in October or December. Her current funding goal has a 54% chance of succeeding. If she could cut costs in half, her success rate would increase to approximately 70%. 
-
 ### Limitations 
-Many of the limitations of this dataset come from the donation collection. For example, the method of how donations are collected is unclear. Is the crowdfunding solely from an online platform like GoFundMe or were there other collection methods? If there were other collection methods, then which one was most successful? Are successful campaigns funded primarily by online methods, in-person methods, or a mix of the two? Why are campaigns with zero backers included in this dateset?
+The placeholder, a short hint that describes the expected value, is a useful visual affect for the user. However, it can be unclear what the table is displaying when the placeholders for unused filters remain after the intial filter is applied. My recommendations below, outline how to make the table easier to interact with and read. 
 
-### Digging Deeper 
-Louise's biggest concern is likely her funding goal. Would it be possible to reduce her funding goal to increase her chances of success? The data suggests- yes! Although cutting her budget from 10,000 to 5,000 could increase the likehood of her success from 50% to 70%, that is a substantial cut which could negatively impact the quality of her play. What would her chances of success be if her goal was 9,000 or 8,000? I would want to narrow the Outcomes vs Goals graph to funding goals of 0 to 11,000 and break down the percentage of success by increments of 500. This would help me make better suggestions than cutting her goal from 10,000 to 5,000. 
+### My Reccomendation 
+To enhance readability, a line of text can be added above the table to outline what search results it is displaying. For example, if the user searches for "or" and "triangle", the line of text would read *This table shows all results for UFO sightings in the state of Oregon and triangle shaped.* 
 
-Another factor I am interested in is the amount of an average donation. Once Louise sets a funding goal, it would be helpful to know how much she should ask backers for. Should she put her time and energy into finding many backers to make smaller donation or a few backers into making larger donations? A line graph comparing successful/failed campagins by number of backers and average donation could help Louise make better decisions about who she will ask to fund her play.  
+To enhace user experience, the state, country, and shape filters can be changed from an entry to a dropdown. Users might struggle if (1) they not know state or country abbreviations, (2) misspell something, or (3) don't know what shapes to search for. A dropdown would allow users to know every possibility in each filter and accurately search for them each time. 
 
-Dropdown menu – helpful for states, countryies, and shapes
-A list of possible shapes 
-A printout of what was searched and the number of sightings for that input 
