@@ -2,7 +2,7 @@
 
 ## Overview of Project
 ### Purpose of Project
-In this project, I demonstrated my proficiency with various JavaScript and HTML features including: using console.log() to debug code, d3.select(), arrow functions, forEach() with JavaScript objects, filters with d3.select(), if-else statements, list-group-item class, label, and input tags to add filtered data to an index.html file, and script tags for your code to an index.html file. 
+In this project, I demonstrated my proficiency with various JavaScript and HTML features including: using console.log() to debug code, d3.select(), arrow functions, forEach() with JavaScript objects, filters with d3.select(), if-else statements, list-group-item class, label, and input tags to add filtered data to an index.html file, and script tags to an index.html file. 
 
 ### Background of Project
 Dana, a journalist, has a JavaScript datafile about UFO sightings that she wants to organize and display. I built a table using data stored in a JavaScript array. Then, I created filters that it will react to user input, and placed the table into an HTML file for easy viewing. Users will be able to search the data by date, city, state, country, and shape of the UFO sightings. 
