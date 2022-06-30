@@ -2,7 +2,7 @@
 
 ## Overview of Project
 ### Purpose of Project
-In this project, I demonstrated my proficiency with various JavaScript and HTML features including: using console.log() to debug code, d3.select(), arrow functions, forEach() with JavaScript objects, filters with d3.select(), if-else statements, list-group-item class, label, and input tags to add filtered data to an index.html file, and script tags for your code to an index.html file. 
+In this project, I demonstrated my proficiency with various JavaScript and HTML features including: using console.log() to debug code, d3.select(), arrow functions, forEach() with JavaScript objects, filters with d3.select(), if-else statements, list-group-item class, label, and input tags to add filtered data to an index.html file, and script tags for your code to an index.html file. 
 
 ### Background of Project
 Dana, a journalist, has a JavaScript datafile about UFO sightings that she wants to organize and display. I built a table using data stored in a JavaScript array. Then, I created filters that it will react to user input, and placed the table into an HTML file for easy viewing. Users will be able to search the data by date, city, state, country, and shape of the UFO sightings. 
@@ -39,7 +39,7 @@ ADD FILTER
 * Hit Enter = The table will look like the image below. 
 ![filter_or](static/images/filter_or.png)
 
-**Example 2: You want to adjut your search so the table displays sightings in the state of Oregon that were in the shape of a triangle**
+**Example 2: You want to adjust your search so the table displays sightings in the state of Oregon that were in the shape of a triangle**
 ADD ANOTHER FILTER 
 * Choose any filter = "I want to add triangle to the *shape* filter."  
 * Type your criteria = Type "triangle" under "Enter a Shape". 
@@ -56,10 +56,10 @@ REMOVE FILTER
 ---
 ## Summary
 ### Limitations 
-The placeholder, a short hint that describes the expected value, is a useful visual affect for the user. However, it can be unclear what the table is displaying when the placeholders for unused filters remain after the intial filter is applied. My recommendations below, outline how to make the table easier to interact with and read. 
+The placeholder, a short hint that describes the expected value, is a useful visual affect for the user. However, it can be unclear what the table is displaying when the placeholders for unused filters remain after the initial filter is applied. My recommendations below, outline how to make the table easier to interact with and read. 
 
-### My Reccomendation 
+### My Recommendation 
 To enhance readability, a line of text can be added above the table to outline what search results it is displaying. For example, if the user searches for "or" and "triangle", the line of text would read *This table shows all results for UFO sightings in the state of Oregon and triangle shaped.* 
 
-To enhace user experience, the state, country, and shape filters can be changed from an entry to a dropdown. Users might struggle if (1) they not know state or country abbreviations, (2) misspell something, or (3) don't know what shapes to search for. A dropdown would allow users to know every possibility in each filter and accurately search for them each time. 
+To enhance user experience, the state, country, and shape filters can be changed from an entry to a dropdown. Users might struggle if (1) they not know state or country abbreviations, (2) misspell something, or (3) don't know what shapes to search for. A dropdown would allow users to know every possibility in each filter and accurately search for them each time. 
 
