@@ -42,7 +42,7 @@ REMOVE FILTER
 
 ![filter_or_triangle](static/images/filter_or_triangle.png)
 
-![filter_triangle ](static/images/filter_triangle .png)
+![filter_triangle ](static/images/filter_triangle.png)
 
 
 
