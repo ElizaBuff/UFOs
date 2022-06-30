@@ -38,7 +38,8 @@ REMOVE FILTER
 **Example 3: You want to adjust your search so the table displays sightings that were in the shape of a triangle**
 
 filter_or filter_or_triangle filter_triangle 
-![filter_or](images/static/filter_or.png)
+
+![filter_or](static/images/filter_or.png)
 
 
 
