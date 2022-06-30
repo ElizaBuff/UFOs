@@ -37,9 +37,12 @@ REMOVE FILTER
 **Example 2: You want to adjut your search so the table displays sightings in the state of Oregon that were in the shape of a triangle**
 **Example 3: You want to adjust your search so the table displays sightings that were in the shape of a triangle**
 
-filter_or filter_or_triangle filter_triangle 
 
 ![filter_or](static/images/filter_or.png)
+
+![filter_or_triangle](static/images/filter_or_triangle.png)
+
+![filter_triangle ](static/images/filter_triangle .png)
 
 
 
