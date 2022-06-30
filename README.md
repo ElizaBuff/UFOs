@@ -26,33 +26,32 @@ ADD FILTER
 
 REMOVE FILTER 
 * Choose filter you want to remove
-* delete text
+* Delete text
 * Hit Enter [table will adjust]
 
     
 
-
 ### EXAMPLE
 **Example 1: You want to search for sightings in the state of Oregon**
-**Example 2: You want to adjut your search so the table displays sightings in the state of Oregon that were in the shape of a triangle**
-**Example 3: You want to adjust your search so the table displays sightings that were in the shape of a triangle**
-
-
+ADD FILTER 
+* Choose any filter = "I want to search by the *state* of Oregon."  
+* Type your criteria = The abbreviation for Oregon, "or", is typed under "Enter a State". 
+* Hit Enter = The table will look like the image below. 
 ![filter_or](static/images/filter_or.png)
 
-![filter_or_triangle](static/images/filter_or_triangle.png)
-
+**Example 2: You want to adjut your search so the table displays sightings in the state of Oregon that were in the shape of a triangle**
+ADD ANOTHER FILTER 
+* Choose any filter = "I want to add triangle to the *shape* filter."  
+* Type your criteria = Type "triangle" under "Enter a Shape". 
+* Hit Enter = The table will look like the image below. 
+* ![filter_or_triangle](static/images/filter_or_triangle.png)
+* 
+**Example 3: You want to adjust your search so the table displays sightings that were in the shape of a triangle**
+REMOVE FILTER 
+* Choose filter you want to remove = "I want to remove the *state* of Oregon."  
+* Delete text = Delete "or" typed under "Enter a State". 
+* Hit Enter = The table will look like the image below. 
 ![filter_triangle ](static/images/filter_triangle.png)
-
-
-
-Results:
-
-There is a description of how to perform a search, with images. (4 pt)
-
-
-
-
 
 ---
 ## Summary
