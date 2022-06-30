@@ -1,41 +1,56 @@
-# UFOs
+# UFO Analysis 
 
 ## Overview of Project
 ### Purpose of Project
-In this project, I demonstrated my proficiency with various features in excel including: conditional formatting, debugging errors, VLOOKUPs, and creating interactive charts and graphs with pivot charts. To accomplish these goals, I was given a fictional situation and data set of several thousand crowdfunding projects. 
+In this project, I demonstrated my proficiency with various JavaScript and HTML features including: using console.log() to debug code, d3.select(), arrow functions, forEach() with JavaScript objects, filters with d3.select(), if-else statements, list-group-item class, label, and input tags to add filtered data to an index.html file, and script tags for your code to an index.html file. 
+
 ### Background of Project
-Louise, an up-and-coming playwright, wants to start a crowd funding campaign to fund her play *FEVER* which she estimates will cost over $10,000. The following report highlights specfic factors that lead to a successful campaign.     
+Dana, a journalist, has a JavaScript datafile about UFO sightings that she wants to organize and display. I built a table using data stored in a JavaScript array. Then, I created filters that it will react to user input, and placed the table into an HTML file for easy viewing. Users will be able to search the data by date, city, state, country, and shape of the UFO sightings. 
+
 
 ---
-## Results
+## How to Perform a Filtered Search 
+The “Filter Search” allows users to either search for UFO sightings by date, city, state, country, or shape. The search can be done using any combination of filters. Thus, a user could search by just the state of Oregon, just triangle shaped UFOs, or by a combination of the state of Oregon and triangle shaped UFOs.  
+
+###FORMATING 
+* Date is entered as MO/DA/YEAR
+* State and Country are entered using the two letter abbreviations 
+
+###HOW TO SEARCH 
+ADD FILTER 
+* Choose any filter  
+* Type your criteria 
+* Hit Enter [table will adjust] 
+* OPTIONAL: repeat for remaining filters
+
+
+REMOVE FILTER 
+* Choose filter you want to remove
+* delete text
+* Hit Enter [table will adjust]
+
+    
+
+
+###EXAMPLE
+**Example 1: You want to search for sightings in the state of Oregon**
+**Example 2: You want to search for sightings in the state of Oregon that were in the shape of a triangle**
+
+filter_or filter_or_triangle filter_triangle 
+
+
 Results:
 
 There is a description of how to perform a search, with images. (4 pt)
-### Analysis
-I organized the data to see if the month the kickstarter launched could impact its success. First, I made the data more detailed by splitting the Category and Subcategory column into two distinct columns. This allowed me to view the wider category of theater and later the narrower subcategory plays. Next, I converted Unix timestamps to identify the launch date. For example, I turned the cell **1434931811** into **06/22/15** using the code =(((J2/60)/60)/24)+DATE(1970,1,1). Finally, I created a pivot table that filtered based on "Parent Category" and "Years." From that pivot table I created the line graph shown below. 
-
-Based on the line graph above, I had the following takeways about theather campaigns:
-* May, June, and July respectively had the highest number of successful campaigns. 
-* October and May respectively had the highest number of failed campaigns.
-* December had about as many successful campaigns as failed ones.
-* In every month there were more successful than failed campagins. Generally, the successful and failed trend lines create the same shape and are similar to each other with the exception of May, October, and December. In May, the larger than average gap between successful and failed campaigns suggests a better chance for success. In October, the smaller than average gap between successful and failed campaigns suggests a better chance for failure. 
 
 
-Next, I organized the data to see if the funding goal could impact the kickstarter's success. First, I needed to count the number of successful, failed, and canceled plays by goal. To do this, I used the COUNTIFS formula. For example, to count the number of successful plays with a goal between 1,000 and 4,999 I wrote the formula =COUNTIFS('Raw Data'!$O:$O, "plays",'Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful"). Then, I converted the number of successful, failed, and cancled plays to a percentage to more accurately compare them. Using this information, I created the line graph shown below. 
 
 
-Based on the line graph above, I had the following takeways about play campaigns:
-* Because there are zero cancled plays, successful and failed campaigns are symetric about the 50% line. 
-* Generally, the percentage of successfully funded plays decreases as the goal increases with the exception of 29,999 to 49,999. This exception is likely due to a smaller sample size of 11 or less. 
-* Plays with a goal of less than 5,000 have a success rate 20 points higher than plays with a goal between 5,000 and 20,000. 
-
-
-### Challenges 
-One challenge I encountered in writing my countifs formula was ensuring that I only counted the *plays*. Initially, my formula =COUNTIFS('Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful") counted every subcategory so I had to add an additional criteria and changed my formula to =COUNTIFS('Raw Data'!$O:$O, "plays",'Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful"). 
 
 ---
 ## Summary
 Summary:
+1. Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
 
 The summary addresses one drawback of this webpage (2 pt)
 The summary addresses two additional recommendations for further development (4 pt)
@@ -49,3 +64,7 @@ Many of the limitations of this dataset come from the donation collection. For e
 Louise's biggest concern is likely her funding goal. Would it be possible to reduce her funding goal to increase her chances of success? The data suggests- yes! Although cutting her budget from 10,000 to 5,000 could increase the likehood of her success from 50% to 70%, that is a substantial cut which could negatively impact the quality of her play. What would her chances of success be if her goal was 9,000 or 8,000? I would want to narrow the Outcomes vs Goals graph to funding goals of 0 to 11,000 and break down the percentage of success by increments of 500. This would help me make better suggestions than cutting her goal from 10,000 to 5,000. 
 
 Another factor I am interested in is the amount of an average donation. Once Louise sets a funding goal, it would be helpful to know how much she should ask backers for. Should she put her time and energy into finding many backers to make smaller donation or a few backers into making larger donations? A line graph comparing successful/failed campagins by number of backers and average donation could help Louise make better decisions about who she will ask to fund her play.  
+
+Dropdown menu – helpful for states, countryies, and shapes
+A list of possible shapes 
+A printout of what was searched and the number of sightings for that input 
