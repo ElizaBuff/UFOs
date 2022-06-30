@@ -61,5 +61,5 @@ The placeholder, a short hint that describes the expected value, is a useful vis
 ### My Recommendation 
 To enhance readability, a line of text can be added above the table to outline what search results it is displaying. For example, if the user searches for "or" and "triangle", the line of text would read *This table shows all results for UFO sightings in the state of Oregon and triangle shaped.* 
 
-To enhance user experience, the state, country, and shape filters can be changed from an entry to a dropdown. Users might struggle if (1) they not know state or country abbreviations, (2) misspell something, or (3) don't know what shapes to search for. A dropdown would allow users to know every possibility in each filter and accurately search for them each time. 
+To enhance user experience, the state, country, and shape filters can be changed from an entry to a dropdown. Users might struggle if (1) they do not know state or country abbreviations, (2) misspell something, or (3) don't know what shapes to search for. A dropdown would allow users to know every possibility in each filter and accurately search for them each time. 
 
