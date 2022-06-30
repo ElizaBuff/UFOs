@@ -44,8 +44,8 @@ ADD ANOTHER FILTER
 * Choose any filter = "I want to add triangle to the *shape* filter."  
 * Type your criteria = Type "triangle" under "Enter a Shape". 
 * Hit Enter = The table will look like the image below. 
-* ![filter_or_triangle](static/images/filter_or_triangle.png)
-* 
+![filter_or_triangle](static/images/filter_or_triangle.png)
+ 
 **Example 3: You want to adjust your search so the table displays sightings that were in the shape of a triangle**
 REMOVE FILTER 
 * Choose filter you want to remove = "I want to remove the *state* of Oregon."  
